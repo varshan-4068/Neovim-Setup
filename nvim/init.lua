@@ -43,5 +43,6 @@ require("lazy").setup({
 	require("plugins.vim-illuminate"),
 	require("plugins.catppuccin"),
 	require("plugins.linting"),
+	require("plugins.mason-tool"),
 })
 
