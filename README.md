@@ -8,26 +8,30 @@
 >
 > If you use VS Code and want to use Vim, there's actually [an extension](https://marketplace.visualstudio.com/items?itemName=vscodevim.vim) in Visual Studio Code that simulates Vim on it. Go try it.
 
-> [!Important]
-> <b> *Setup Procedures..* </b>
+<details>
 
-To setup neovim with my files type the commands given below in your wsl or linux system : 
+<summary> Installation </summary>
+
+- To setup neovim with my files type the commands given below in your wsl or linux system : 
 
 
-    git clone https://github.com/varshan-4068/Neovim-Setup.git 
+      git clone https://github.com/varshan-4068/Neovim-Setup.git 
 
-    cd Neovim-Setup/ 
+      cd Neovim-Setup/ 
 
-    cp -r nvim/ ~/.config/
+      cp -r nvim/ ~/.config/
     
-    cd ~ 
+      cd ~ 
     
-    nvim 
+      nvim 
 
-That's it the neovim is setup perfectly with the needed plugins installed and if u wanna modify the setup as u wanted with my file feel free to do it..
+- That's it the neovim is setup perfectly with the needed plugins installed and if u wanna modify the setup as u wanted with my file feel free to do it..
+
+</details>
 
 <details>
- <summary> Features In My Setup </summary>
+    
+ <summary> Plugins Features </summary>
 
 - Plugin management with [Lazy.nvim](https://github.com/folke/lazy.nvim).
 - Code, snippet, auto-completion via [nvim-cmp](https://github.com/hrsh7th/nvim-cmp).
@@ -52,25 +56,27 @@ That's it the neovim is setup perfectly with the needed plugins installed and if
 <details>
     
  <summary> Keybindings </summary>
+ 
+- Below Listed were the Keybindings setup manually in my configurations.. checkout the nvim/core/keymaps.lua,etc...
 
-| Shortcut                       | Mode          | Purpose                            |
-|--------------------------------|---------------|------------------------------------|
-| <kbd>CTRL</kbd> + <kbd>B</kkd> | NORMAL        | Neo-tree Toggle                    |
-| <kbd>CTRL</kbd> + <kbd>F</kbd> | NORMAL        | Telescope                          |
-| <kbd>CTRL</kbd> + <kbd>A</kbd> | NORMAL        | Code actions                       |     
-| <kbd>CTRL</kbd> + <kbd>T</kbd> | NORMAL        | Tmux                               | 
-| <kbd>CTRL</kbd> + <kbd>P</kbd> | NORMAL        | Delete a Buffer                    |
-| <kbd>CTRL</kbd> + <kbd>R</kbd> | NORMAL        | Macro recording                    |  
-| <kbd>Space</kbd> + <kbd>F</kbd>| NORMAL        | Formatting                         | 
-| <kbd>Space</kbd> + <kbd>L</kbd>| NORMAL        | Linting                            | 
-| <kbd>CTRL</kbd> + <kbd>/</kbd> | NORMAL        | Commenting a line                  | 
-| <kbd>dst</kbd>                 | NORMAL        | Removes html tags                  | 
-| <kbd>ysiw)</kbd>               | NORMAL        | surround word with ()              |
-| <kbd>cs'"</kbd>                | NORMAL        | change quoates ' to "              | 
-| <kbd>dsf</kbd>                 | NORMAL        | delete function call               |
-| <kbd>SHIFT</kbd> + <kbd>></kbd>| NORMAL        | Shift Indent of line to right side | 
-| <kbd>SHIFT</kbd> + <kbd><</kbd>| NORMAL        | Shift Indent of line to left side  |
-| <kbd>TAB</kbd>                 | VISUAL        | Shift Indent of line to right side | 
+  | Shortcut                       | Mode          | Purpose                            |
+  |--------------------------------|---------------|------------------------------------|
+  | <kbd>CTRL</kbd> + <kbd>B</kkd> | NORMAL        | Neo-tree Toggle                    |
+  | <kbd>CTRL</kbd> + <kbd>F</kbd> | NORMAL        | Telescope                          |
+  | <kbd>CTRL</kbd> + <kbd>A</kbd> | NORMAL        | Code actions                       |     
+  | <kbd>CTRL</kbd> + <kbd>T</kbd> | NORMAL        | Tmux                               | 
+  | <kbd>CTRL</kbd> + <kbd>P</kbd> | NORMAL        | Delete a Buffer                    |
+  | <kbd>CTRL</kbd> + <kbd>R</kbd> | NORMAL        | Macro recording                    |  
+  | <kbd>Space</kbd> + <kbd>F</kbd>| NORMAL        | Formatting                         | 
+  | <kbd>Space</kbd> + <kbd>L</kbd>| NORMAL        | Linting                            | 
+  | <kbd>CTRL</kbd> + <kbd>/</kbd> | NORMAL        | Commenting a line                  | 
+  | <kbd>dst</kbd>                 | NORMAL        | Removes html tags                  | 
+  | <kbd>ysiw)</kbd>               | NORMAL        | surround word with ()              |  
+  | <kbd>cs'"</kbd>                | NORMAL        | change quoates ' to "              | 
+  | <kbd>dsf</kbd>                 | NORMAL        | delete function call               |
+  | <kbd>SHIFT</kbd> + <kbd>></kbd>| NORMAL        | Shift Indent of line to right side | 
+  | <kbd>SHIFT</kbd> + <kbd><</kbd>| NORMAL        | Shift Indent of line to left side  |
+  | <kbd>TAB</kbd>                 | VISUAL        | Shift Indent of line to right side | 
 
 </details>
 
@@ -78,16 +84,18 @@ That's it the neovim is setup perfectly with the needed plugins installed and if
     
 <summary> Keybindings for non-arrow movements </summary>
 
-| Shortcut                       | Mode          | Purpose       |
-|--------------------------------|---------------|---------------|
-| <kbd>CTRL</kbd> + <kbd>H</kbd> | INSERT        | move left     | 
-| <kbd>CTRL</kbd> + <kbd>J</kbd> | INSERT        | move down     | 
-| <kbd>CTRL</kbd> + <kbd>K</kbd> | INSERT        | move up       | 
-| <kbd>CTRL</kbd> + <kbd>L</kbd> | INSERT        | move right    | 
-| <kbd>J</kbd>                   | NORMAL        | move down     | 
-| <kbd>K</kbd>                   | NORMAL        | move up       | 
-| <kbd>H</kbd>                   | NORMAL        | move left     | 
-| <kbd>L</kbd>                   | NORMAL        | move right    | 
+- Below are the Keybindings to be used instead of the arrow keys , actually it was a good habit to develop and would also increase your speed..
+
+  | Shortcut                       | Mode          | Purpose       |
+  |--------------------------------|---------------|---------------|
+  | <kbd>CTRL</kbd> + <kbd>H</kbd> | INSERT        | move left     | 
+  | <kbd>CTRL</kbd> + <kbd>J</kbd> | INSERT        | move down     | 
+  | <kbd>CTRL</kbd> + <kbd>K</kbd> | INSERT        | move up       | 
+  | <kbd>CTRL</kbd> + <kbd>L</kbd> | INSERT        | move right    | 
+  | <kbd>J</kbd>                   | NORMAL        | move down     | 
+  | <kbd>K</kbd>                   | NORMAL        | move up       | 
+  | <kbd>H</kbd>                   | NORMAL        | move left     | 
+  | <kbd>L</kbd>                   | NORMAL        | move right    | 
 
 </details> 
 
