@@ -1,4 +1,6 @@
 # *Neovim*
+![](https://img.shields.io/github/last-commit/varshan-4068/Neovim-Setup?&style=for-the-badge&color=FFB1C8&logoColor=D9E0EE&labelColor=292324)
+![](https://img.shields.io/github/repo-size/varshan-4068/Neovim-Setup?color=CAC992&label=SIZE&logo=googledrive&style=for-the-badge&logoColor=D9E0EE&labelColor=292324)
 
 > [!Tip]
 >
@@ -24,7 +26,8 @@ To setup neovim with my files type the commands given below in your wsl or linux
 
 That's it the neovim is setup perfectly with the needed plugins installed and if u wanna modify the setup as u wanted with my file feel free to do it..
 
-# *Features* #
+<details>
+ <summary> Features In My Setup </summary>
 
 - Plugin management with [Lazy.nvim](https://github.com/folke/lazy.nvim).
 - Code, snippet, auto-completion via [nvim-cmp](https://github.com/hrsh7th/nvim-cmp).
@@ -44,7 +47,11 @@ That's it the neovim is setup perfectly with the needed plugins installed and if
 - File navigation with [telescope](https://github.com/nvim-telescope/telescope.nvim)
 - Tmux inside your nvim using [vim-tmux-navigator](https://github.com/christoomey/vim-tmux-navigator)
 
-# *Keybindings*
+</details>
+
+<details>
+    
+ <summary> Keybindings </summary>
 
 | Shortcut                       | Mode          | Purpose                            |
 |--------------------------------|---------------|------------------------------------|
@@ -65,7 +72,11 @@ That's it the neovim is setup perfectly with the needed plugins installed and if
 | <kbd>SHIFT</kbd> + <kbd><</kbd>| NORMAL        | Shift Indent of line to left side  |
 | <kbd>TAB</kbd>                 | VISUAL        | Shift Indent of line to right side | 
 
-# *Keybindings for non-arrow movements*
+</details>
+
+<details>
+    
+<summary> Keybindings for non-arrow movements </summary>
 
 | Shortcut                       | Mode          | Purpose       |
 |--------------------------------|---------------|---------------|
@@ -77,6 +88,8 @@ That's it the neovim is setup perfectly with the needed plugins installed and if
 | <kbd>K</kbd>                   | NORMAL        | move up       | 
 | <kbd>H</kbd>                   | NORMAL        | move left     | 
 | <kbd>L</kbd>                   | NORMAL        | move right    | 
+
+</details> 
 
 # *Contributing*
 
