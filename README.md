@@ -104,6 +104,6 @@
 If you find anything that needs some improvement, feel free to create a Pull Request.
 
 If you come across an issue, first use `:checkhealth` command provided by `nvim` to solve it yourself.
-Please read carefully the messages provided by health check.
+Please read carefully the messages provided by checkhealth.
 
 If you still have an issue, [open a new issue](https://github.com/varshan-4068/Neovim-Setup/issues).
