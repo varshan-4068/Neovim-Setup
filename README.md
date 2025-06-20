@@ -1,5 +1,5 @@
 # *Neovim*
-![](https://img.shields.io/github/last-commit/varshan-4068/Neovim-Setup?&style=for-the-badge&color=FFB1C8&logoColor=D9E0EE&labelColor=292324)
+![](https://img.shields.io/github/last-commit/varshan-4068/Neovim-Setup?style=for-the-badge&color=FFB1C8&logoColor=D9E0EE&labelColor=292324)
 ![](https://img.shields.io/github/repo-size/varshan-4068/Neovim-Setup?color=CAC992&label=SIZE&logo=googledrive&style=for-the-badge&logoColor=D9E0EE&labelColor=292324)
 
 > [!Tip]
@@ -10,7 +10,7 @@
 
 <details>
 
-<summary> Installation </summary>
+<summary> 💥 Installation 💥</summary>
 
 - To setup neovim with my files type the commands given below in your wsl or linux system : 
 
@@ -31,7 +31,7 @@
 
 <details>
     
- <summary> Plugins Features </summary>
+ <summary> 🪧 Plugins Features 🪧 </summary>
 
 - Plugin management with [Lazy.nvim](https://github.com/folke/lazy.nvim).
 - Code, snippet, auto-completion via [nvim-cmp](https://github.com/hrsh7th/nvim-cmp).
@@ -55,7 +55,7 @@
 
 <details>
     
- <summary> Keybindings </summary>
+ <summary>  ⌨ Keybindings </summary>
  
 - Below Listed were the Keybindings setup manually in my configurations.. checkout the nvim/core/keymaps.lua,etc...
 
@@ -82,7 +82,7 @@
 
 <details>
     
-<summary> Keybindings for non-arrow movements </summary>
+<summary>  ⌨ Keybindings for non-arrow movements </summary>
 
 - Below are the Keybindings to be used instead of the arrow keys , actually it was a good habit to develop and would also increase your speed..
 
@@ -99,7 +99,7 @@
 
 </details> 
 
-# *Contributing*
+# *✍️ Contributing*
 
 If you find anything that needs some improvement, feel free to create a Pull Request.
 
