@@ -2,9 +2,9 @@
 
 > [!Tip]
 >
-> Vim makes you really fast on writing code. Once you try, you don't wanna go back. And you can develop anything you want from it, because at the end of the day every code is just text.
+> Vim makes you really fast on writing code. Once you try, you don't wanna go back. And you can develop anything you want from it..
 >
-> If you use Visual Studio Code and want to use Vim, there's actually [an extension](https://marketplace.visualstudio.com/items?itemName=vscodevim.vim) in Visual Studio Code that simulates Vim on it. Go try it.
+> If you use VS Code and want to use Vim, there's actually [an extension](https://marketplace.visualstudio.com/items?itemName=vscodevim.vim) in Visual Studio Code that simulates Vim on it. Go try it.
 
 > [!Important]
 > <b> *Setup Procedures..* </b>
@@ -78,3 +78,11 @@ That's it the neovim is setup perfectly with the needed plugins installed and if
 | <kbd>H</kbd>                   | NORMAL        | move left     | 
 | <kbd>L</kbd>                   | NORMAL        | move right    | 
 
+# *Contributing*
+
+If you find anything that needs some improvement, do not hesitate to point it out or create a Pull Request.
+
+If you come across an issue, first use `:checkhealth` command provided by `nvim` to solve it yourself.
+Please read carefully the messages provided by health check.
+
+If you still have an issue, [open a new issue](https://github.com/varshan-4068/Neovim-Setup/issues).
