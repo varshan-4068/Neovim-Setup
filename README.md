@@ -80,7 +80,7 @@ That's it the neovim is setup perfectly with the needed plugins installed and if
 
 # *Contributing*
 
-If you find anything that needs some improvement, do not hesitate to point it out or create a Pull Request.
+If you find anything that needs some improvement, feel free to create a Pull Request.
 
 If you come across an issue, first use `:checkhealth` command provided by `nvim` to solve it yourself.
 Please read carefully the messages provided by health check.
