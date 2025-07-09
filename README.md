@@ -33,7 +33,7 @@
     
  <summary> 🪧 Plugins Features 🪧 </summary>
 
-- Plugin management with [Lazy.nvim](https://github.com/folke/lazy.nvim).
+- Plugin management with [Lazy.nvim](https://github.com/folke/lazy.nvim). 
 - Code, snippet, auto-completion via [nvim-cmp](https://github.com/hrsh7th/nvim-cmp).
 - Language server protocol (LSP) support with [nvim-lspconfig](https://github.com/neovim/nvim-lspconfig).
 - An Awesome statusline written in lua [lualine](https://github.com/nvim-lualine/lualine.nvim).
@@ -41,6 +41,10 @@
 - A Beautiful Dashboard with [alpha.nvim](https://github.com/goolord/alpha-nvim) 
 - Auto-completion of pairs like () using [nvim-autopairs](https://github.com/windwp/nvim-autopairs)
 - Beautiful Transparent Catppuccin Color scheme [Catppuccin](https://github.com/catppuccin/nvim)
+- Colorizing the hexadecimal color codes can be done with [nvim-colorizer](https://github.com/norcalli/nvim-colorizer.lua)
+- Pasting Images in .md (markdown) or other file formats can be done with [img-clip.nvim](https://github.com/HakonHarnes/img-clip.nvim)
+- Auto Saving the session can be done with [auto-save.nvim](https://github.com/Pocco81/auto-save.nvim)
+- Plugin used for practicing typing is [typr](https://github.com/nvzone/typr)
 - Commenting lines can be done with [Comment.nvim](https://github.com/numToStr/Comment.nvim)
 - Formatters for nvim via [conform.nvim](https://github.com/stevearc/conform.nvim)
 - Indenting a blankline can be done with [indent-blankline.nvim](https://github.com/lukas-reineke/indent-blankline.nvim)
