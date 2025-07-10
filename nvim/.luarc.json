@@ -27,7 +27,8 @@
         "n",
         "v",
         "null_ls",
-        "lint_augroup"
+        "lint_augroup",
+        "componentcustom_moonfly"
     ],
     "diagnostics.disable": [
         "unused-local",
