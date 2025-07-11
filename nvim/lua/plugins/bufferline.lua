@@ -24,9 +24,9 @@ return {
 				show_close_icon = true,
 				persist_buffer_sort = true, -- whether or not custom sorted buffers should persist
 				show_tab_indicators = true,
-				separator_style = { '│', '│' },
+				-- separator_style = { '│', '│' },
 				indicator = {
-					style = 'underline', -- Options: 'icon', 'underline', 'none'
+					style = 'icon', -- Options: 'icon', 'underline', 'none'
 				},
 				icon_pinned = '󰐃',
 				minimum_padding = 8,

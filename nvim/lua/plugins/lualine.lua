@@ -23,9 +23,9 @@ return {
 			sections = {
 				lualine_a = { { 'mode', separator = { left = '' }, left_padding = 2 } },
 				lualine_b = { { 'filename', 'branch', separator = { right = '' }, left_padding = 2 } },
-				lualine_c = {},
-				lualine_x = { 'encoding', 'fileformat', 'filetype' },
-				lualine_y = { 'progress' },
+				lualine_c = { 'filetype', 'encoding', 'fileformat' },
+				lualine_x = {},
+				lualine_y = { { 'progress' } },
 				lualine_z = {
 					{ 'location', separator = { right = '' }, left_padding = 2 },
 				},
