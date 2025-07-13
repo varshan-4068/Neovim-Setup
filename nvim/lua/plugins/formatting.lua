@@ -11,6 +11,7 @@ return {
 				json = { "prettier" },
 				typescript = { "prettier" },
 				cpp = { "clang-format" },
+				bash = { "shfmt" },
 			},
 		})
 
