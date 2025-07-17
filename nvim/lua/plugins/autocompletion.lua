@@ -27,16 +27,18 @@ return {
 					luasnip.lsp_expand(args.body)
 				end,
 			},
-			completion = { completeopt = 'menu,menuone,noinsert' },
 			window = {
 				completion = cmp.config.window.bordered(),
 				documentation = cmp.config.window.bordered(),
 			},
+			view = {
+				entries = { name = 'custom'}
+			},
 			mapping = cmp.mapping.preset.insert {
-				['<C-j>'] = cmp.mapping.select_next_item(),       -- Select the [n]ext item
-				['<C-k>'] = cmp.mapping.select_prev_item(),       -- Select the [p]revious item
+				['<C-j>'] = cmp.mapping.select_next_item(),   -- Select the [n]ext item
+				['<C-k>'] = cmp.mapping.select_prev_item(),   -- Select the [p]revious item
 				['<CR>'] = cmp.mapping.confirm { select = true }, -- Accept the completion with Enter.
-				['<C-c>'] = cmp.mapping.complete {},              -- Manually trigger a completion from nvim-cmp.
+				['<C-c>'] = cmp.mapping.complete {},          -- Manually trigger a completion from nvim-cmp.
 
 				['<Tab>'] = cmp.mapping(function(fallback)
 					if cmp.visible() then
@@ -52,18 +54,6 @@ return {
 				{ name = 'nvim_lsp' },
 				{ name = 'luasnip' },
 				{ name = 'buffer' },
-				{ name = 'render-markdown' },
-			},
-			formatting = {
-				fields = { 'kind', 'abbr' },
-				format = function(entry, vim_item)
-					vim_item.menu = ({
-						nvim_lsp = '[LSP]',
-						luasnip = '[Snippet]',
-						buffer = '[Buffer]',
-					})[entry.source.name]
-					return vim_item
-				end,
 			},
 
 			-- Uncomment below lines to use autocompletions for command line in nvim
@@ -86,5 +76,16 @@ return {
 			-- }),
 
 		}
+		vim.api.nvim_set_hl(0, 'CmpItemAbbrDeprecated', { bg = 'NONE', strikethrough = true, fg = '#f38ba8' })
+		vim.api.nvim_set_hl(0, 'CmpItemAbbrMatch', { bg = 'NONE', fg = '#c999dd' })
+		vim.api.nvim_set_hl(0, 'CmpItemAbbrMatchFuzzy', { link = 'CmpIntemAbbrMatch' })
+		vim.api.nvim_set_hl(0, 'CmpItemKindVariable', { bg = 'NONE', fg = '#ff8888' })
+		vim.api.nvim_set_hl(0, 'CmpItemKindInterface', { link = 'CmpItemKindVariable' })
+		vim.api.nvim_set_hl(0, 'CmpItemKindText', { link = 'CmpItemKindVariable' })
+		vim.api.nvim_set_hl(0, 'CmpItemKindFunction', { bg = 'NONE', fg = '#e06c75' })
+		vim.api.nvim_set_hl(0, 'CmpItemKindMethod', { link = 'CmpItemKindFunction' })
+		vim.api.nvim_set_hl(0, 'CmpItemKindKeyword', { bg = 'NONE', fg = '#3cb371' })
+		vim.api.nvim_set_hl(0, 'CmpItemKindProperty', { link = 'CmpItemKindKeyword' })
+		vim.api.nvim_set_hl(0, 'CmpItemKindUnit', { link = 'CmpItemKindKeyword' })
 	end,
 }

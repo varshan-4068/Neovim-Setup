@@ -35,6 +35,8 @@ return {
 			}
 			require 'lspconfig'.pyright.setup {}
 			require 'lspconfig'.html.setup {}
+			require 'lspconfig'.bashls.setup {}
+			require 'lspconfig'.markdown_oxide.setup {}
 			require 'lspconfig'.cssls.setup {}
 			require 'lspconfig'.ts_ls.setup {}
 			require 'lspconfig'.ccls.setup {}
