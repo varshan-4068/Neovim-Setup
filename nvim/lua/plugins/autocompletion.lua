@@ -28,11 +28,16 @@ return {
 				end,
 			},
 			window = {
-				completion = cmp.config.window.bordered(),
-				documentation = cmp.config.window.bordered(),
+				completion = {
+					border = 'rounded',
+					scrollbar = false,
+				},
+				documentation = {
+					border = 'rounded'
+				},
 			},
 			view = {
-				entries = { name = 'custom'}
+				entries = { name = 'custom' }
 			},
 			mapping = cmp.mapping.preset.insert {
 				['<C-j>'] = cmp.mapping.select_next_item(),   -- Select the [n]ext item
@@ -55,6 +60,15 @@ return {
 				{ name = 'luasnip' },
 				{ name = 'buffer' },
 			},
+			formatting = {
+				format = function(entry, vim_item)
+					local max_width = 45
+					if #vim_item.abbr > max_width then
+						vim_item.abbr = vim_item.abbr:sub(1, max_width - 3) .. "..."
+					end
+					return vim_item
+				end,
+			},
 
 			-- Uncomment below lines to use autocompletions for command line in nvim
 			--
@@ -74,7 +88,6 @@ return {
 			-- 	}),
 			-- 	matching = { disallow_symbol_nonprefix_matching = false }
 			-- }),
-
 		}
 		vim.api.nvim_set_hl(0, 'CmpItemAbbrDeprecated', { bg = 'NONE', strikethrough = true, fg = '#f38ba8' })
 		vim.api.nvim_set_hl(0, 'CmpItemAbbrMatch', { bg = 'NONE', fg = '#c999dd' })

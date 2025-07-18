@@ -68,14 +68,21 @@
   | Shortcut                       | Mode          | Purpose                            |
   |--------------------------------|---------------|------------------------------------|
   | <kbd>CTRL</kbd> + <kbd>B</kkd> | NORMAL        | Neo-tree Toggle                    |
-  | <kbd>CTRL</kbd> + <kbd>F</kbd> | NORMAL        | Telescope                          |
+  | <kbd>CTRL</kbd> + <kbd>FF</kbd> | NORMAL       | Telescope                          |
+  | <kbd>CTRL</kbd> + <kbd>FB</kbd> | NORMAL       | Buffer selection using Telescope   |
+  | <kbd>CTRL</kbd> + <kbd>FG</kbd> | NORMAL       | Search files with words inside the file using Telescope |
+  | <kbd>CTRL</kbd> + <kbd>FH</kbd> | NORMAL       | Telescope Help                     |
   | <kbd>CTRL</kbd> + <kbd>A</kbd> | NORMAL        | Code actions                       |     
   | <kbd>CTRL</kbd> + <kbd>T</kbd> | NORMAL        | Tmux                               | 
   | <kbd>CTRL</kbd> + <kbd>P</kbd> | NORMAL        | Delete a Buffer                    |
   | <kbd>CTRL</kbd> + <kbd>R</kbd> | NORMAL        | Macro recording                    |  
   | <kbd>Space</kbd> + <kbd>F</kbd>| NORMAL        | Formatting                         | 
   | <kbd>Space</kbd> + <kbd>L</kbd>| NORMAL        | Linting                            | 
+  | <kbd>Space</kbd> + <kbd>U</kbd>| NORMAL        | Open and View the Url's present in a buffer or Files | 
   | <kbd>CTRL</kbd> + <kbd>/</kbd> | NORMAL        | Commenting a line                  | 
+  | <kbd>Space</kbd> + <kbd>A</kbd>| NORMAL        | Toggle Autosaving File on or off   | 
+  | <kbd>TAB</kbd>                 | NORMAL        | Switch Betweeen Opened Buffer Files Present in Bufferline|
+  | <kbd>CTRL</kbd> + <kbd>X</kbd> | NORMAL        | Switch To the previous Buffer File present in Bufferline|
   | <kbd>dst</kbd>                 | NORMAL        | Removes html tags                  | 
   | <kbd>ysiw)</kbd>               | NORMAL        | surround word with ()              |  
   | <kbd>cs'"</kbd>                | NORMAL        | change quoates ' to "              | 
@@ -83,6 +90,13 @@
   | <kbd>SHIFT</kbd> + <kbd>></kbd>| NORMAL        | Shift Indent of line to right side | 
   | <kbd>SHIFT</kbd> + <kbd><</kbd>| NORMAL        | Shift Indent of line to left side  |
   | <kbd>TAB</kbd>                 | VISUAL        | Shift Indent of line to right side | 
+  | <kbd>P</kbd>                   | VISUAL        | Keep last yanked or copied when pasting | 
+  | <kbd>Space</kbd> + <kbd>B</kbd> | NORMAL        | Enable the nvim-biscuits to view which block of code uses () or {}|
+  | <kbd>Space</kbd> + <kbd>RD</kbd>| NORMAL        | Disable Rendering Markdown Files       | 
+  | <kbd>Space</kbd> + <kbd>RE</kbd>| NORMAL        | Enable Rendering Markdown Files       | 
+  | <kbd>Space</kbd> + <kbd>RT</kbd>| NORMAL        | Toggle Rendering Markdown Files       | 
+  | <kbd>Space</kbd> + <kbd>RL</kbd>| NORMAL        | Open Log Files of a Rendered Markdown Files       | 
+
 
 </details>
 
