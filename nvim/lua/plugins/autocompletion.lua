@@ -100,5 +100,6 @@ return {
 		vim.api.nvim_set_hl(0, 'CmpItemKindKeyword', { bg = 'NONE', fg = '#3cb371' })
 		vim.api.nvim_set_hl(0, 'CmpItemKindProperty', { link = 'CmpItemKindKeyword' })
 		vim.api.nvim_set_hl(0, 'CmpItemKindUnit', { link = 'CmpItemKindKeyword' })
+		vim.api.nvim_set_hl(0, 'PmenuSel', { bg = "#ff6666", fg = "#000000", bold = true })
 	end,
 }
