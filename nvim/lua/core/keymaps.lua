@@ -25,9 +25,6 @@ vim.keymap.set('n', '<leader>fh', '<cmd>Telescope help_tags<cr>', { noremap = tr
 
 vim.keymap.set('n', '<C-a>', vim.lsp.buf.code_action, opts)
 
---keybinding for tmux
-
-vim.keymap.set('n', '<leader>t', ':term tmux<CR>', { noremap = true, silent = true })
 
 --keybinding for closing buffer
 
@@ -64,4 +61,5 @@ vim.keymap.set('n', '<leader>rl', '<cmd> RenderMarkdown log<CR>')
 --keymap for urlview 
 
 vim.keymap.set("n", "<leader>u", "<Cmd>UrlView<CR>", { desc = "View buffer URLs" })
+
 
