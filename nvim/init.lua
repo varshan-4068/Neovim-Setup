@@ -44,7 +44,6 @@ require("lazy").setup({
 	require("plugins.catppuccin"),
 	require("plugins.linting"),
 	require("plugins.mason-tool"),
-	require("plugins.typr"),
 	require("plugins.color"),
 	require("plugins.auto-save"),
 	require("plugins.md-render"),
