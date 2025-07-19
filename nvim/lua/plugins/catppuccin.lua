@@ -41,5 +41,40 @@ return {
 			end,
 		})
 		vim.cmd.colorscheme("catppuccin")
+		vim.api.nvim_create_autocmd('ColorScheme', {
+			callback = function()
+				vim.cmd [[highlight CmpItemAbbrDeprecated guibg=NONE guifg=#f38ba8 cterm=strikethrough]]
+			end,
+		})
+		vim.api.nvim_create_autocmd('ColorScheme', {
+			callback = function()
+				vim.cmd [[highlight CmpItemAbbrMatch guibg=NONE guifg=#c999dd]]
+			end,
+		})
+		vim.api.nvim_create_autocmd('ColorScheme', {
+			callback = function()
+				vim.cmd [[highlight CmpItemKindVariable guibg=NONE guifg=#ff8888]]
+			end,
+		})
+		vim.api.nvim_create_autocmd('ColorScheme', {
+			callback = function()
+				vim.cmd [[highlight CmpItemKindFunction guibg=NONE guifg=#e06c75]]
+			end,
+		})
+		vim.api.nvim_create_autocmd('ColorScheme', {
+			callback = function()
+				vim.cmd [[highlight CmpItemKindKeyword guibg=NONE guifg=#3cb371]]
+			end,
+		})
+		vim.api.nvim_create_autocmd('ColorScheme', {
+			callback = function()
+				vim.cmd [[highlight PmenuSel guibg=#ff6666 guifg=#000000]]
+			end,
+		})
+		vim.api.nvim_create_autocmd('ColorScheme', {
+			callback = function()
+					vim.cmd [[highlight Visual guibg=#ff6666 guifg=#000000]]
+			end,
+		})
 	end
 }

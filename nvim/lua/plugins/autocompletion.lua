@@ -89,46 +89,33 @@ return {
 			-- 	matching = { disallow_symbol_nonprefix_matching = false }
 			-- }),
 		}
-		vim.api.nvim_set_hl(0, 'CmpItemAbbrDeprecated', { bg = 'NONE', strikethrough = true, fg = '#f38ba8' })
-		vim.api.nvim_set_hl(0, 'CmpItemAbbrMatch', { bg = 'NONE', fg = '#c999dd' })
-		vim.api.nvim_set_hl(0, 'CmpItemAbbrMatchFuzzy', { link = 'CmpIntemAbbrMatch' })
-		vim.api.nvim_set_hl(0, 'CmpItemKindVariable', { bg = 'NONE', fg = '#ff8888' })
-		vim.api.nvim_set_hl(0, 'CmpItemKindInterface', { link = 'CmpItemKindVariable' })
-		vim.api.nvim_set_hl(0, 'CmpItemKindText', { link = 'CmpItemKindVariable' })
-		vim.api.nvim_set_hl(0, 'CmpItemKindFunction', { bg = 'NONE', fg = '#e06c75' })
-		vim.api.nvim_set_hl(0, 'CmpItemKindMethod', { link = 'CmpItemKindFunction' })
-		vim.api.nvim_set_hl(0, 'CmpItemKindKeyword', { bg = 'NONE', fg = '#3cb371' })
-		vim.api.nvim_set_hl(0, 'CmpItemKindProperty', { link = 'CmpItemKindKeyword' })
-		vim.api.nvim_set_hl(0, 'CmpItemKindUnit', { link = 'CmpItemKindKeyword' })
-		vim.api.nvim_set_hl(0, 'PmenuSel', { bg = "#ff6666", fg = "#000000", bold = true })
-
-		vim.api.nvim_create_autocmd({"bufRead","BufNewFile"},{
+		vim.api.nvim_create_autocmd({ "bufRead", "BufNewFile" }, {
 			pattern = "*.sh",
-			callback = function () vim.bo.filetype = "sh" end,
+			callback = function() vim.bo.filetype = "sh" end,
 		})
-		vim.api.nvim_create_autocmd({"bufRead","BufNewFile"},{
+		vim.api.nvim_create_autocmd({ "bufRead", "BufNewFile" }, {
 			pattern = "*.txt",
-			callback = function () vim.bo.filetype = "text" end,
+			callback = function() vim.bo.filetype = "text" end,
 		})
-		vim.api.nvim_create_autocmd({"bufRead","BufNewFile"},{
+		vim.api.nvim_create_autocmd({ "bufRead", "BufNewFile" }, {
 			pattern = "*.md",
-			callback = function () vim.bo.filetype = "markdown" end,
+			callback = function() vim.bo.filetype = "markdown" end,
 		})
-		vim.api.nvim_create_autocmd({"bufRead","BufNewFile"},{
+		vim.api.nvim_create_autocmd({ "bufRead", "BufNewFile" }, {
 			pattern = "*.conf",
-			callback = function () vim.bo.filetype = "conf" end,
+			callback = function() vim.bo.filetype = "conf" end,
 		})
-		vim.api.nvim_create_autocmd({"bufRead","BufNewFile"},{
+		vim.api.nvim_create_autocmd({ "bufRead", "BufNewFile" }, {
 			pattern = "*.py",
-			callback = function () vim.bo.filetype = "python" end,
+			callback = function() vim.bo.filetype = "python" end,
 		})
-		vim.api.nvim_create_autocmd({"bufRead","BufNewFile"},{
+		vim.api.nvim_create_autocmd({ "bufRead", "BufNewFile" }, {
 			pattern = "*.jsonc",
-			callback = function () vim.bo.filetype = "jsonc" end,
+			callback = function() vim.bo.filetype = "jsonc" end,
 		})
-		vim.api.nvim_create_autocmd({"bufRead","BufNewFile"},{
+		vim.api.nvim_create_autocmd({ "bufRead", "BufNewFile" }, {
 			pattern = "*.lua",
-			callback = function () vim.bo.filetype = "lua" end,
+			callback = function() vim.bo.filetype = "lua" end,
 		})
 	end,
 }
