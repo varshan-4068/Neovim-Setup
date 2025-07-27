@@ -10,7 +10,6 @@ return {
 			python = { "pylint" },
 			html = { "htmlhint" },
 			css = { "stylelint" },
-			markdown = { "markdownlint" },
 		}
 
 		vim.api.nvim_create_autocmd({ "BufWritePost" }, {

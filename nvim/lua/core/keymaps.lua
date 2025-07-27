@@ -62,4 +62,8 @@ vim.keymap.set('n', '<leader>rl', '<cmd> RenderMarkdown log<CR>')
 
 vim.keymap.set("n", "<leader>u", "<Cmd>UrlView<CR>", { desc = "View buffer URLs" })
 
+--keymap for typr 
 
+vim.keymap.set("n", "<leader>t", "<Cmd>Typr<CR>")
+
+vim.keymap.set("n", "<leader>ts", "<Cmd>TyprStats<CR>")

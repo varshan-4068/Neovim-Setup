@@ -97,7 +97,7 @@ return {
 			pattern = "*.txt",
 			callback = function() vim.bo.filetype = "text" end,
 		})
-		vim.api.nvim_create_autocmd({ "bufRead", "BufNewFile" }, {
+		vim.api.nvim_create_autocmd({ "bufRead", "BufNewFile","BufWritePost" }, {
 			pattern = "*.md",
 			callback = function() vim.bo.filetype = "markdown" end,
 		})

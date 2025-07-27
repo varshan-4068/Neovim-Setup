@@ -45,6 +45,7 @@
 - Auto Saving the session can be done with [auto-save.nvim](https://github.com/Pocco81/auto-save.nvim)
 - To view which function or a set of code uses pairs like (),{} we can use [nvim-biscuits](https://github.com/code-biscuits/nvim-biscuits)
 - To open the url's present in a file can be opened with [urlview.nvim](https://github.com/axieax/urlview.nvim)
+- Terminal integration like vscode in nvim [toggleterm.nvim](https://github.com/akinsho/toggleterm.nvim)
 - To render markdown files we can use [render-markdown.nvim](https://github.com/MeanderingProgrammer/render-markdown.nvim) 
 - Plugin used for practicing typing is [typr](https://github.com/nvzone/typr)
 - Commenting lines can be done with [Comment.nvim](https://github.com/numToStr/Comment.nvim)
@@ -73,11 +74,13 @@
   | <kbd>CTRL</kbd> + <kbd>FG</kbd> | NORMAL       | Search files with words inside the file using Telescope |
   | <kbd>CTRL</kbd> + <kbd>FH</kbd> | NORMAL       | Telescope Help                     |
   | <kbd>CTRL</kbd> + <kbd>A</kbd> | NORMAL        | Code actions                       |     
-  | <kbd>CTRL</kbd> + <kbd>T</kbd> | NORMAL        | Tmux                               | 
+  | <kbd>CTRL</kbd> + <kbd>T</kbd> | NORMAL        | Terminal                           | 
   | <kbd>CTRL</kbd> + <kbd>P</kbd> | NORMAL        | Delete a Buffer                    |
   | <kbd>CTRL</kbd> + <kbd>R</kbd> | NORMAL        | Macro recording                    |  
   | <kbd>Space</kbd> + <kbd>F</kbd>| NORMAL        | Formatting                         | 
   | <kbd>Space</kbd> + <kbd>L</kbd>| NORMAL        | Linting                            | 
+  | <kbd>Space</kbd> + <kbd>T</kbd>| NORMAL        | Typr Plugin                        | 
+  | <kbd>Space</kbd> + <kbd>TS</kbd>| NORMAL        | TyprStats                         | 
   | <kbd>Space</kbd> + <kbd>U</kbd>| NORMAL        | Open and View the Url's present in a buffer or Files | 
   | <kbd>CTRL</kbd> + <kbd>/</kbd> | NORMAL        | Commenting a line                  | 
   | <kbd>Space</kbd> + <kbd>A</kbd>| NORMAL        | Toggle Autosaving File on or off   | 

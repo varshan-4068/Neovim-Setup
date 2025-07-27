@@ -50,4 +50,5 @@ require("lazy").setup({
 	require("plugins.urlview"),
 	require("plugins.nvim-biscuits"),
 	require("plugins.terminal"),
+	require("plugins.typr"),
 })
