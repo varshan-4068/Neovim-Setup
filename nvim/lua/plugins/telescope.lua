@@ -7,6 +7,8 @@ return {
 				defaults = {
 					file_ignore_patterns = { "node_modules", ".git" },
 					preview = false,
+					sorting_strategy = "ascending",
+					winblend = 0,
 				},
 				pickers = {
 					find_files = {

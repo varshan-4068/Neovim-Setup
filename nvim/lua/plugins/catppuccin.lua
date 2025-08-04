@@ -36,7 +36,19 @@ return {
 			},
 			custom_highlights = function(colors)
 				return {
-					Comment = { fg = colors.overlay0 },
+					-- comment
+					Comment = { fg = colors.overlay2 },
+					-- Lazy
+					LazyNormal = { bg = "NONE", fg = colors.text },
+					-- Mason
+					MasonNormal = { bg = "NONE", fg = colors.text },
+					-- Telescope
+					TelescopeNormal = { bg = "NONE", fg = colors.text },
+					TelescopeBorder = { bg = "NONE", fg = colors.lavender,bold = true },
+					TelescopePromptTitle = { bg = "NONE", fg = colors.text, bold = true },
+					TelescopeSelection = { bg = "NONE", fg = colors.flamingo,bold = true },
+					TelescopeSelectionCaret = { bg = "NONE" },
+					TelescopeMatching = { bg = "NONE", fg = colors.flamingo, bold = true},
 				}
 			end,
 		})
@@ -73,7 +85,7 @@ return {
 		})
 		vim.api.nvim_create_autocmd('ColorScheme', {
 			callback = function()
-					vim.cmd [[highlight Visual guibg=#ff6666 guifg=#000000]]
+				vim.cmd [[highlight Visual guibg=#ff6666 guifg=#000000]]
 			end,
 		})
 	end
