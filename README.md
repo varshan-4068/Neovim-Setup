@@ -50,12 +50,12 @@
 - Plugin used for practicing typing is [typr](https://github.com/nvzone/typr)
 - Commenting lines can be done with [Comment.nvim](https://github.com/numToStr/Comment.nvim)
 - Formatters for nvim via [conform.nvim](https://github.com/stevearc/conform.nvim)
-- Indenting a blankline can be done with [indent-blankline.nvim](https://github.com/lukas-reineke/indent-blankline.nvim)
+- Indenting blankline can be done with [indent-blankline.nvim](https://github.com/lukas-reineke/indent-blankline.nvim)
 - Linting in nvim via [nvim-lint](https://github.com/mfussenegger/nvim-lint)
 - Mason is used for installing the formatters, linters, nvim [mason.nvim](https://github.com/williamboman/mason.nvim)
 - Mason can be configured to install our needed lsp,formatters,etc using [mason-tool-installer](https://github.com/WhoIsSethDaniel/mason-tool-installer.nvim)
 - File explorer in tree format via [neo-tree](https://github.com/nvim-neo-tree/neo-tree.nvim)
-- File navigation with [telescope](https://github.com/nvim-telescope/telescope.nvim)
+- Fuzzy File navigation with [fzf-lua](https://github.com/ibhagwan/fzf-lua)
 - Tmux inside your nvim using [vim-tmux-navigator](https://github.com/christoomey/vim-tmux-navigator)
 
 </details>
