@@ -42,13 +42,10 @@ return {
 					LazyNormal = { bg = "NONE", fg = colors.text },
 					-- Mason
 					MasonNormal = { bg = "NONE", fg = colors.text },
-					-- Telescope
-					TelescopeNormal = { bg = "NONE", fg = colors.text },
-					TelescopeBorder = { bg = "NONE", fg = colors.lavender,bold = true },
-					TelescopePromptTitle = { bg = "NONE", fg = colors.text, bold = true },
-					TelescopeSelection = { bg = "NONE", fg = colors.flamingo,bold = true },
-					TelescopeSelectionCaret = { bg = "NONE" },
-					TelescopeMatching = { bg = "NONE", fg = colors.flamingo, bold = true},
+					-- fzf
+					FzfLuaNormal = { bg = "NONE" },
+					FzfLuaBorder = { bg = "NONE" },
+					FzfLuaTitle = { bg = "NONE" },
 				}
 			end,
 		})

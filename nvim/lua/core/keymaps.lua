@@ -12,14 +12,14 @@ vim.keymap.set('v', '>', '>gv', opts)
 --keep last yanked when pasting
 vim.keymap.set('v', 'p', '"_dP', opts)
 
---keybindings for telescope
-vim.keymap.set('n', '<leader>ff', '<cmd>Telescope find_files hidden=true<cr>', { noremap = true, silent = true })
+--keybindings for fzf
+vim.keymap.set('n', '<leader>zf', '<cmd>FzfLua files<cr>')
 
-vim.keymap.set('n', '<leader>fb', '<cmd>Telescope buffers<cr>', { noremap = true, silent = true })
+vim.keymap.set('n', '<leader>z', '<cmd>FzfLua zoxide<cr>')
 
-vim.keymap.set('n', '<leader>fg', '<cmd>Telescope live_grep<cr>', { noremap = true, silent = true })
+vim.keymap.set('n', '<leader>fb', '<cmd>FzfLua buffers<cr>')
 
-vim.keymap.set('n', '<leader>fh', '<cmd>Telescope help_tags<cr>', { noremap = true, silent = true })
+vim.keymap.set('n', '<leader>fh', '<cmd>FzfLua oldfiles<cr>')
 
 --keybinding for code actions
 

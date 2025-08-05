@@ -1,9 +1,9 @@
-					 --                        ███╗   ██╗███████╗ ██████╗ ██╗   ██╗██╗███╗   ███╗                        --
-					 --                        ████╗  ██║██╔════╝██╔═══██╗██║   ██║██║████╗ ████║                        --
-					 --                        ██╔██╗ ██║█████╗  ██║   ██║██║   ██║██║██╔████╔██║                        --
-					 --                        ██║╚██╗██║██╔══╝  ██║   ██║╚██╗ ██╔╝██║██║╚██╔╝██║                        --
-					 --                        ██║ ╚████║███████╗╚██████╔╝ ╚████╔╝ ██║██║ ╚═╝ ██║                        --
-					 --                        ╚═╝  ╚═══╝╚══════╝ ╚═════╝   ╚═══╝  ╚═╝╚═╝     ╚═╝                        --
+--																			███╗   ██╗███████╗ ██████╗ ██╗   ██╗██╗███╗   ███╗																				--		
+--																			████╗  ██║██╔════╝██╔═══██╗██║   ██║██║████╗ ████║																				--		
+--																			██╔██╗ ██║█████╗  ██║   ██║██║   ██║██║██╔████╔██║																				--		
+--																			██║╚██╗██║██╔══╝  ██║   ██║╚██╗ ██╔╝██║██║╚██╔╝██║																				--		
+--																			██║ ╚████║███████╗╚██████╔╝ ╚████╔╝ ██║██║ ╚═╝ ██║																				--		
+--																			╚═╝  ╚═══╝╚══════╝ ╚═════╝   ╚═══╝  ╚═╝╚═╝     ╚═╝																				--		
 
 require("core.options")
 require("core.keymaps")
@@ -29,7 +29,6 @@ require("lazy").setup({
 	require("plugins.alpha"),
 	require("plugins.indent"),
 	require("plugins.neo-tree"),
-	require("plugins.telescope"),
 	require("plugins.treesitter"),
 	require("plugins.autocompletion"),
 	require("plugins.bufferline"),
@@ -51,4 +50,5 @@ require("lazy").setup({
 	require("plugins.nvim-biscuits"),
 	require("plugins.terminal"),
 	require("plugins.typr"),
+	require("plugins.fzf"),
 })
