@@ -26,9 +26,13 @@ vim.keymap.set('n', '<leader>fh', '<cmd>FzfLua oldfiles<cr>')
 vim.keymap.set('n', '<C-a>', vim.lsp.buf.code_action, opts)
 
 
---keybinding for closing buffer
+--keybinding for buffers
 
-vim.keymap.set('n', '<C-p>', ':Bdelete<CR>')
+vim.keymap.set('n', '<C-p>', '<cmd>Bdelete<CR>')
+
+vim.keymap.set('n', '<S-h>', '<cmd>bprevious<CR>')
+
+vim.keymap.set('n', '<S-l>', '<cmd>:bnext<CR>')
 
 --keybinding for recording a macro
 
@@ -67,3 +71,7 @@ vim.keymap.set("n", "<leader>u", "<Cmd>UrlView<CR>", { desc = "View buffer URLs"
 vim.keymap.set("n", "<leader>t", "<Cmd>Typr<CR>")
 
 vim.keymap.set("n", "<leader>ts", "<Cmd>TyprStats<CR>")
+
+--keymap for diagnostics window
+
+vim.keymap.set("n", "<leader>d", "<cmd>lua vim.diagnostic.open_float()<CR>")

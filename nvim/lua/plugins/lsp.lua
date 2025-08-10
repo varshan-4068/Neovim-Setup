@@ -42,4 +42,10 @@ return {
 			require 'lspconfig'.ccls.setup {}
 		end
 	},
+	vim.diagnostic.config({
+		virtual_text = true,
+		signs = true,
+		underline = false,
+		update_in_insert = false,
+	})
 }

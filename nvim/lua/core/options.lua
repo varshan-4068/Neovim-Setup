@@ -8,6 +8,7 @@ vim.opt.smartcase = true
 vim.opt.cursorline = true
 vim.opt.termguicolors = true
 vim.opt.background = "dark"
+vim.opt.winborder = "single"
 vim.opt.splitright = false
 vim.opt.scrolloff = 3
 vim.opt.clipboard = "unnamedplus"
