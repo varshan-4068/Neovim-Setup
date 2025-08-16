@@ -21,9 +21,9 @@ return {
 		}
 
 		dashboard.section.buttons.val = {
-			dashboard.button("e", "📄  New file", ":ene <BAR> startinsert <CR>"),
+			dashboard.button("e", "📄  New file", ":ene <BAR>startinsert<CR>"),
 			dashboard.button("f", "🔍  Find file", ":FzfLua files<CR>"),
-			dashboard.button("c", "⚙️  Open Config (~/.config/nvim)", "<cmd>FzfLua files cwd=~/.config<CR>"),
+			dashboard.button("c", "⚙️  Open Config (~/.config/nvim)", "<cmd>FzfLua files cwd=~/.config/nvim/<CR>"),
 			dashboard.button("l", "📦  Lazy Plugin Manager", ":Lazy<CR>"),
 			dashboard.button("m", "🧪  Mason Package Manager", ":Mason<CR>"),
 			dashboard.button("q", "🚪  Quit Neovim", ":qa<CR>"),
