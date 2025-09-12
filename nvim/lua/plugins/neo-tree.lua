@@ -9,7 +9,7 @@ return {
 	config = function()
     require("neo-tree").setup({
       window = {
-        position = "bottom",
+        position = "left",
         width = 30,
       },
       filesystem = {
