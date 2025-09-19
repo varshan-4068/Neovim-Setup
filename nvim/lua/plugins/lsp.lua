@@ -24,7 +24,7 @@ return {
 	{
 		"neovim/nvim-lspconfig",
 		config = function()
-			require 'lspconfig'.lua_ls.setup {
+			vim.lsp.config('lua_ls',{
 				settings = {
 					Lua = {
 						diagnostics = {
@@ -32,14 +32,14 @@ return {
 						},
 					},
 				},
-			}
-			require 'lspconfig'.pyright.setup {}
-			require 'lspconfig'.html.setup {}
-			require 'lspconfig'.bashls.setup {}
-			require 'lspconfig'.markdown_oxide.setup {}
-			require 'lspconfig'.cssls.setup {}
-			require 'lspconfig'.ts_ls.setup {}
-			require 'lspconfig'.ccls.setup {}
+			})
+			vim.lsp.config('pyright',{})
+			vim.lsp.config('html',{})
+			vim.lsp.config('bashls',{})
+			vim.lsp.config('markdown_oxide',{})
+			vim.lsp.config('cssls',{})
+			vim.lsp.config('ccls',{})
+			vim.lsp.config('ts_ls',{})
 		end
 	},
 	vim.diagnostic.config({
