@@ -33,6 +33,8 @@
     
  <summary> 🪧 Plugins Features 🪧 </summary>
 
+ <br>
+
 - Plugin management with [Lazy.nvim](https://github.com/folke/lazy.nvim). 
 - Code, snippet, auto-completion via [nvim-cmp](https://github.com/hrsh7th/nvim-cmp).
 - Language server protocol (LSP) support with [nvim-lspconfig](https://github.com/neovim/nvim-lspconfig).
