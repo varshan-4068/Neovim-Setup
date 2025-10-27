@@ -18,7 +18,7 @@ return {
 					lavender = "#c8ccd4",
 					red = "#ff9999",
 					peach = "#fab371",
-					yellow = "#fff960",
+					yellow = "#fff946",
 					green = "#3cb371",
 					teal = "#008080",
 					blue = "#c0c0c0",
