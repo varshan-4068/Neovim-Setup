@@ -22,6 +22,7 @@ return {
 				"⣿⣿⣿⣿⣿⣿⠿⠁⠀⠀⠀⠘⣤⣭⣟⠛⠛⣉⣁⡜⠀⠀⠀⠀⠀⠛⠿⣿⣿⣿",
 				"⡿⠟⠛⠉⠉⠀⠀⠀⠀⠀⠀⠀⠈⢻⣿⡀⠀⣿⠏⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠉",
 				" 														 ",
+				"         Sirivarshan K        ",
 		}
 
 		dashboard.section.buttons.val = {
