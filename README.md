@@ -10,7 +10,9 @@
 
 <br />
 
-<img width="1921" height="1081" alt="screenshot-2025-10-27_21-10-45" src="https://github.com/user-attachments/assets/dca62da2-4c7a-4e16-b937-63f70540d000" /><br />
+<img width="1921" height="1081" alt="nvim" src="https://github.com/user-attachments/assets/0fb97251-baad-4127-86aa-15b034def368" />
+
+<br />
 
 <details>
 
