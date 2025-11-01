@@ -5,11 +5,8 @@ return {
 		local lint = require("lint")
 
 		lint.linters_by_ft = {
-			javascript = { "eslint_d" },
-			typescript = { "eslint_d" },
 			python = { "pylint" },
 			html = { "htmlhint" },
-			css = { "stylelint" },
 		}
 
 		vim.api.nvim_create_autocmd({ "BufWritePost" }, {

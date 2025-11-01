@@ -33,6 +33,8 @@ return {
 					},
 				},
 			})
+			vim.lsp.config('eslint',{})
+			vim.lsp.config('stylelint',{})
 			vim.lsp.config('pyright',{})
 			vim.lsp.config('html',{})
 			vim.lsp.config('bashls',{})
