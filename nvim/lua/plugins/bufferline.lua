@@ -15,30 +15,32 @@ return {
 				close_icon = '',
 				modified_icon = '●',
 				left_trunc_marker = '',
+				offsets = {
+					{
+						filetype = "neo-tree",
+						text = "File Explorer",
+						separator = true,
+						text_align = "center",
+						padding = 0,
+					}
+				},
 				right_trunc_marker = '',
-				diagnostics = true,
-				diagnostics_update_in_insert = true,
+				diagnostics = "nvim_lsp",
 				color_icons = true,
 				show_buffer_icons = true,
 				show_buffer_close_icons = true,
 				show_close_icon = true,
 				persist_buffer_sort = true, -- whether or not custom sorted buffers should persist
 				show_tab_indicators = true,
-				-- separator_style = { '│', '│' },
+				separator_style = "thin",
 				indicator = {
-					style = 'icon', -- Options: 'icon', 'underline', 'none'
+					style = 'none', -- Options: 'icon', 'underline', 'none'
 				},
 				icon_pinned = '󰐃',
-				minimum_padding = 8,
-				maximum_padding = 10,
-				maximum_length = 16,
+				maximum_length = 20,
 				sort_by = 'insert_at_end',
 			},
 			highlights = {
-				separator = {
-					fg = '#cdd6f4',
-				},
-
 				buffer_selected = {
 					bold = true,
 					italic = true,
@@ -57,5 +59,6 @@ return {
 		vim.keymap.set('n', '<C-6>', "<cmd>lua require('bufferline').go_to_buffer(6)<CR>", opts)
 		vim.keymap.set('n', '<C-7>', "<cmd>lua require('bufferline').go_to_buffer(7)<CR>", opts)
 		vim.keymap.set('n', '<C-8>', "<cmd>lua require('bufferline').go_to_buffer(8)<CR>", opts)
+		vim.diagnostic.config { update_in_insert = true}
 	end,
 }

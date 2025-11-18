@@ -62,6 +62,16 @@ return {
 		})
 		vim.api.nvim_create_autocmd('ColorScheme', {
 			callback = function()
+				vim.cmd [[highlight NeoTreeWinSeparator guibg=NONE guifg=#ffffff]]
+			end,
+		})
+		vim.api.nvim_create_autocmd('ColorScheme', {
+			callback = function()
+				vim.cmd [[highlight BufferLineOffsetSeparator guibg=NONE guifg=#ffffff]]
+			end,
+		})
+		vim.api.nvim_create_autocmd('ColorScheme', {
+			callback = function()
 				vim.cmd [[highlight CmpItemKindVariable guibg=NONE guifg=#ff8888]]
 			end,
 		})

@@ -51,4 +51,6 @@ require("lazy").setup({
 	require("plugins.terminal"),
 	require("plugins.typr"),
 	require("plugins.fzf"),
+	require("plugins.gitsigns"),
+	require("plugins.vim-fugitive"),
 })

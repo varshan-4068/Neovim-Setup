@@ -25,3 +25,4 @@ vim.o.hlsearch = true
 vim.o.incsearch = true
 vim.opt.linebreak = true
 vim.opt.guicursor = 'n-i-v-c-sm:block,ci-ve:hor25,r-cr-o:hor20'
+vim.opt.winbar = " "
