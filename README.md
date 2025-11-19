@@ -65,6 +65,8 @@
 - File explorer in tree format via [neo-tree](https://github.com/nvim-neo-tree/neo-tree.nvim)
 - Fuzzy File navigation with [fzf-lua](https://github.com/ibhagwan/fzf-lua)
 - Tmux inside your nvim using [vim-tmux-navigator](https://github.com/christoomey/vim-tmux-navigator)
+- Gitsigns for displaying the status of files in a repo with signs [gitsigns](https://github.com/lewis6991/gitsigns.nvim)
+- Run git commands inside nvim using [vim-fugitive](https://github.com/tpope/vim-fugitive)
 
 </details>
 
@@ -107,6 +109,9 @@
   | <kbd>Space</kbd> + <kbd>RE</kbd>| NORMAL        | Enable Rendering Markdown Files       | 
   | <kbd>Space</kbd> + <kbd>RT</kbd>| NORMAL        | Toggle Rendering Markdown Files       | 
   | <kbd>Space</kbd> + <kbd>RL</kbd>| NORMAL        | Open Log Files of a Rendered Markdown Files       | 
+  | <kbd>Space</kbd> + <kbd>D</kbd> | NORMAL        | Diagnostics on floating window |
+  | <kbd>Space</kbd> + <kbd>GP</kbd>| NORMAL        | Gitsigns Preview Hunk |
+  | <kbd>Space</kbd> + <kbd>GTC</kbd>| NORMAL        | Gitsigns Toggle Current Line Blame |
 
 
 </details>
