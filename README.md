@@ -8,9 +8,17 @@
 >
 > If you use VS Code and want to use Vim, there's actually [an extension](https://marketplace.visualstudio.com/items?itemName=vscodevim.vim) in Visual Studio Code that simulates Vim on it. Go try it.
 
+## *Dashboard*
+
+<img width="1920" height="1080" alt="screenshot-2025-11-19_20-24-52" src="https://github.com/user-attachments/assets/4005ec0d-5f26-4e2e-8e3f-a0f93aa5992b" />
+
 <br />
 
-<img width="1921" height="1081" alt="nvim" src="https://github.com/user-attachments/assets/0fb97251-baad-4127-86aa-15b034def368" />
+## *LSP*
+
+<img width="1920" height="1080" alt="screenshot-2025-11-19_20-30-51" src="https://github.com/user-attachments/assets/d3b789c3-f807-470a-825f-b4d739ca515d" />
+
+<br />
 
 <br />
 
