@@ -42,6 +42,7 @@ return {
 			vim.lsp.config('cssls',{})
 			vim.lsp.config('ccls',{})
 			vim.lsp.config('ts_ls',{})
+			vim.lsp.config('lua_ls',{})
 		end
 	},
 	vim.diagnostic.config({
