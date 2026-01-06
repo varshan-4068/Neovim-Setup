@@ -22,7 +22,7 @@ return {
 				"⣿⣿⣿⣿⣿⣿⠿⠁⠀⠀⠀⠘⣤⣭⣟⠛⠛⣉⣁⡜⠀⠀⠀⠀⠀⠛⠿⣿⣿⣿",
 				"⡿⠟⠛⠉⠉⠀⠀⠀⠀⠀⠀⠀⠈⢻⣿⡀⠀⣿⠏⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠉",
 				" 														 ",
-				"           anonymous          ",
+				"         Ethical Hacker       ",
 		}
 
 		dashboard.section.buttons.val = {
